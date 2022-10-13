@@ -1,0 +1,67 @@
+#container {
+    width: 935px;
+    margin: 0 auto;
+}
+
+div {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+#header {
+    width:890px;
+    height:100px;
+    background-image: url("https://www.caci.nl/wp-content/uploads/2022/03/GLU_FULL_RGB_nieuw-logo-klein.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 55%;
+    background-position: -50px;
+}
+#sidemiddle {
+    border: 0px solid black;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 85px;
+}
+.divmiddle {
+    width: 50%;
+}
+#sidetop {
+    height: 50px;
+}
+#sidebot {
+    height: 100px;
+}
+#sidebar {
+    width: 180px;
+    height:500px;
+    float: left;
+}
+#footerleft {
+    width: 100px;
+    height: 12px;
+    float:right;
+}
+#content {
+    width: 670px;
+    height:500px;
+    float: left;
+}
+#footer {
+    width: 893px;
+    height: 50px;
+    clear: left;
+}
+#contentleft {
+    float:left;
+    width: 100px;
+    height: 100px;
+}
+#contentright {
+    float:right;
+    width: 100px;
+    height: 100px;
+}

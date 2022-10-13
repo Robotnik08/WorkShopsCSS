@@ -1,0 +1,133 @@
+#boord {
+    border: 1px solid black;
+    height: 340px;
+    width: 885px;
+    display: flex;
+}
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -170px;
+    margin-left: -442.5px;
+    font-family: "NSbold";
+    color: #003082;
+    display: flex;
+    flex-direction: column;
+}
+#left {
+    background-color: #003082;
+    width: 140px;
+    height: 100%;
+}
+#middle {
+    background-color: black;
+    height: 100%;
+    width:500px;
+}
+#middlecontent {
+    background-color: whitesmoke;
+    width: 420px;
+    height: 270px;
+    margin: 40px;
+}
+#toptext {
+    display: flex;
+}
+#mid {
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+}
+#footer {
+    background-color: #003082;
+    color: whitesmoke;
+    bottom: 0%;
+    height: 30px;
+}
+#footer p {
+    margin: 0%;
+    font-size: 23px;
+}
+#lefttext {
+    width: 250px;
+    height: 50px;
+    float: left;
+}
+#righttext {
+    width: 250px;
+    height: 50px;
+    float: right;
+}
+#lefttext h1 {
+    margin-top: 0%;
+    font-weight: 800;
+}
+#righttext h1 {
+    margin-top: 0%;
+    font-weight: 800;
+    float: left;
+}
+#righttext img {
+    margin: 3px;
+    height: 30px;
+    float:right;
+}
+#destination {
+    font-size: 50px;
+    margin:0%;
+}
+#right {
+    background-color: rgb(167, 164, 151);
+    width: 245px;
+    height: 100%;
+}
+#smallbox {
+    background-color: #003082;
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+#spoor {
+    font-size: 14px;
+}
+#spoornummer {
+    font-size: 70px;
+    margin-top: 0px;
+    float:left;
+}
+#blockleft {
+    background-color: whitesmoke;
+    width: 106px;
+    height: 106px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+#clock {
+    height: 195px;
+    width: 195px;
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    border: 5px solid rgb(192, 184, 145);
+    background-image: url(../img/klok.png);
+    background-size: 197px;
+}
+#clock img {
+    height: 195px;
+    width: 195px;
+    /* float:left; */
+}
+#min {
+    position: relative;
+    top: -200px;
+}
+#sec {
+    position: relative;
+    top: -400px;
+}
+@font-face {
+    font-family: "NSbold";
+    src: url(../font/nssanbol-webfont.ttf) format("truetype");
+}

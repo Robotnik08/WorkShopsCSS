@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NS trein</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <script src="assets/js/clock.js"></script>
+        <script src="assets/js/main.js"></script>
+        <input id="stationinput" onkeyup="getInputStation(event)">
+        <input id="spoorinput" onkeyup="getInputRail(event)">
+        <div id="boord">
+            <div id="left">
+                <div id="blockleft">
+                    <div id="smallbox"></div>
+                    <p id="spoor">spoor</p>
+                    <p id="spoornummer">13<sup style="font-size:32pt">b</sup></p>
+                </div>
+            </div>
+            <div id="middle">
+                <div id="middlecontent">
+                    <div id="toptext">
+                        <div id="lefttext">
+                            <h1>8:30</h1>
+                        </div>
+                        <div id="righttext">
+                            <h1>Intercity</h1>
+                            <img src="assets/img/logo.png">
+                        </div>
+                    </div>
+                    <div id="mid">
+                        <p id="destination">Deventer</p>
+                        <p id="via">via Rotterdam Alexan, Gouda, Utrecht Centraal, Amersfoort en Apeldoorn</p>
+                    </div>
+                    <div id="footer">
+                        <p>9:20 Intercity Deventer</p>
+                    </div>
+                </div>
+            </div>
+            <div id="right">
+                <div id="clock">
+                    <img id="uur" src="assets/img/uurwijzer.png">
+                    <img id="min" src="assets/img/minuutwijzer.png">
+                    <img id="sec" src="assets/img/secondewijzer.png">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

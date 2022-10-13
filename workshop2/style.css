@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Slome";
+    src: url(slome_3_hex.ttf) format("truetype");
+}
+
+body {
+    font-family: "Slome", Verdana, Tahoma;
+    margin: 0%;
+}
+#header {
+    background-image: url("https://foodhub.scene7.com/is/image/woolworthsltdprod/2006-spaghetti-with-chicken-tomato-and-pesto:Desktop-1300x658");
+    background-size: 100%;
+    height: 300px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: -1;
+
+}
+#header h1 {
+    padding-top: 90px;
+    color: blue;
+    font-size: 100px;
+    font-weight: normal;
+}
+.contentboxwhite {
+    height: 400px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.contentboxwhite img {
+    position: relative;
+    top: -10px;
+    right: -10px;
+    float:right;
+    height: 420px;
+}
+.contentboxblack img {
+    position: relative;
+    top: -10px;
+    right: -10px;
+    float:right;
+    height: 420px;
+}
+.contentboxblack {
+    height: 400px;
+    background-color: rgb(18, 18, 18);
+    color:antiquewhite;
+    padding: 10px;
+}
+h2 {
+    font-weight: normal;
+}
+.floatleft {
+    float: left;
+}
