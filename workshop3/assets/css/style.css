@@ -4,9 +4,12 @@
     width: 885px;
     display: flex;
 }
+#info h1, #info p {
+    text-align: center;
+}
 body {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     margin-top: -170px;
     margin-left: -442.5px;

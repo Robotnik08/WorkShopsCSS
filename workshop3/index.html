@@ -8,8 +8,16 @@
     <body>
         <script src="assets/js/clock.js"></script>
         <script src="assets/js/main.js"></script>
-        <input id="stationinput" onkeyup="getInputStation(event)">
-        <input id="spoorinput" onkeyup="getInputRail(event)">
+        <div id="info">
+            <h1>NS TREINBOORD SIMULATOR</h1>
+            <p>Welkom bij de NS treinboord simulator (unofficial)</p>
+            <p>Schrijf de afkorting van jou station in de input field. (Weet je niet wat je afkorting is? Check deze <a href="https://wiki.ovinnederland.nl/wiki/Lijst_van_verkortingen_van_treinstations">link!)</a></p>
+            <p>Schrijf je spoornummer in de andere input field, <br>is deze incorrect OF er rijdt de komende tijd niks, dan accepteerd het programma het niet</p>
+            <h2>Station:</h2>
+            <input id="stationinput" onkeyup="getInputStation(event)" placeholder="Station (Ut,Gvc,etc)"/>
+            <h2>Spoor:</h2>
+            <input id="spoorinput" onkeyup="getInputRail(event)" placeholder="Spoor (getal)"/>
+        </div>
         <div id="boord">
             <div id="left">
                 <div id="blockleft">

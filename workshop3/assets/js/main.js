@@ -42,6 +42,7 @@ function setData (data) {
     document.getElementById('spoornummer').innerHTML = data.plannedTrack;
     document.getElementById('lefttext').innerHTML = "<h1>" + data.actualDateTime.split("T")[1].split(":")[0] + ":" + data.actualDateTime.split("T")[1].split(":")[1] + "</h1>";
     document.getElementById('via').innerHTML = "via " + getVia(data.routeStations);
+    document.getElementById('typetrain').innerHTML = "InterCity";
 }
 function getVia (data) {
     let res = '';
